@@ -26,11 +26,11 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);
 Servo lockServo;
 
 // Wi-Fi creds
-const char* WIFI_SSID = "albi";
-const char* WIFI_PASS = "12345678";
+const char* WIFI_SSID = "your_username";
+const char* WIFI_PASS = "your_password";
 
 // Apps Script Web App URL 
-const char* SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyX-GQhWvXpQJED2jz42szRZgLpzWpPKthbjdDuX_TY9D3UNDkR7Qfhhy9N_G9u3-hRNw/exec";
+const char* SCRIPT_URL = "google apps script URL";
 
 // Authorized UID
 byte authorizedUID[] = { 0x73, 0x84, 0xE6, 0x0B };
